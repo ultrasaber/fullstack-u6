@@ -1,0 +1,50 @@
+// Place all the styles related to the customers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color:#444;
+}
+
+h1 {
+  font-size:30px;
+  font-weight:bold;
+  color:#444;
+  margin:10px;
+}
+
+#links
+{
+  clear:both;
+}
+
+.customer {
+  border: 1px #ddd solid;
+  border-radius: 5px;
+  display: block;
+  padding: 20px;
+  height: 425px;
+  width: 200px;
+  margin: 10px;
+  float: left;
+}
+
+.customer img {
+  width: 200px;
+}
+
+.customer p {
+  margin-bottom:40px;
+}
+
+.customer .full_name {
+  font-size:24px;
+  margin-bottom: 20px;
+}
+
+.customer .province {
+  font-weight:bold;
+}
