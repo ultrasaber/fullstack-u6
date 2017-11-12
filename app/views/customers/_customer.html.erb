@@ -3,7 +3,7 @@
   <%= image_tag customer.image, alt: customer.full_name %>
   <p>
     <span class="province">Province: </span>
-
+    <%=customer.province_id.nil? ? 'None' : customer.province.name %>
   </p>
   <p class="phone_number"><%= customer.phone_number %></p>
   <p class="email_address"><%= customer.email_address %></p>
